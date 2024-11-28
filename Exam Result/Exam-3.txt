@@ -1,0 +1,58 @@
+=> Result:-
+
+Question   |   Your   |  Correct   |  R/W
+ number    |    Ans   |    Ans     |
+-----------+----------+------------+--------
+  Que-1    |     c    |     C      |  Right
+  Que-2    |     c    |     B      |  Wrong
+  Que-3    |     c    |     B      |  Wrong
+  Que-4    |     c    |     C      |  Right
+  Que-5    |     c    |     D      |  Wrong
+  Que-6    |     c    |     C      |  Right
+  Que-7    |     c    |     B      |  Wrong
+  Que-8    |     c    |     A      |  Wrong
+  Que-9    |     c    |     C      |  Right
+  Que-10   |     c    |     D      |  Wrong
+  Que-11   |     c    |     C      |  Right
+  Que-12   |     c    |     C      |  Right
+  Que-13   |     c    |     A      |  Wrong
+  Que-14   |     c    |     B      |  Wrong
+  Que-15   |     c    |     D      |  Wrong
+  Que-16   |     c    |     B      |  Wrong
+  Que-17   |     c    |     C      |  Right
+  Que-18   |     c    |     A      |  Wrong
+  Que-19   |     c    |     D      |  Wrong
+  Que-20   |     c    |     B      |  Wrong
+  Que-21   |     c    |     C      |  Right
+  Que-22   |     c    |     D      |  Wrong
+  Que-23   |     c    |     C      |  Right
+  Que-24   |     c    |     C      |  Right
+  Que-25   |     c    |     C      |  Right
+  Que-26   |     c    |     D      |  Wrong
+  Que-27   |     c    |     A      |  Wrong
+  Que-28   |     c    |     D      |  Wrong
+  Que-29   |     c    |     B      |  Wrong
+  Que-30   |     c    |     D      |  Wrong
+  Que-31   |     c    |     D      |  Wrong
+  Que-32   |     c    |     C      |  Right
+  Que-33   |     c    |     A      |  Wrong
+  Que-34   |     c    |     C      |  Right
+  Que-35   |     c    |     D      |  Wrong
+  Que-36   |     c    |     D      |  Wrong
+  Que-37   |     c    |     C      |  Right
+  Que-38   |     c    |     C      |  Right
+  Que-39   |     c    |     D      |  Wrong
+  Que-40   |     c    |     A      |  Wrong
+  Que-41   |     c    |     B      |  Wrong
+  Que-42   |     c    |     A      |  Wrong
+  Que-43   |     c    |     A      |  Wrong
+  Que-44   |     c    |     B      |  Wrong
+  Que-45   |     c    |     C      |  Right
+  Que-46   |     c    |     C      |  Right
+  Que-47   |     c    |     C      |  Right
+  Que-48   |     c    |     A      |  Wrong
+  Que-49   |     c    |     B      |  Wrong
+  Que-50   |     c    |     C      |  Right
+
+Total matks = 50
+Obtained marks = 19

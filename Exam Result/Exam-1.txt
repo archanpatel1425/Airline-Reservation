@@ -1,0 +1,59 @@
+=> Result :-
+
+Question   |   Your   |  Correct   |  R/W
+ number    |    Ans   |    Ans     |
+-----------+----------+------------+--------
+  Que-1    |          |     D      | Wrong  
+  Que-2    |          |     C      | Wrong  
+  Que-3    |          |     A      | Wrong  
+  Que-4    |          |     B      | Wrong  
+  Que-5    |          |     D      | Wrong  
+  Que-6    |          |     C      | Wrong  
+  Que-7    |          |     B      | Wrong  
+  Que-8    |          |     B      | Wrong  
+  Que-9    |          |     D      | Wrong  
+  Que-10   |          |     C      | Wrong  
+  Que-11   |          |     D      | Wrong  
+  Que-12   |          |     A      | Wrong  
+  Que-13   |          |     A      | Wrong  
+  Que-14   |          |     C      | Wrong  
+  Que-15   |          |     A      | Wrong  
+  Que-16   |          |     C      | Wrong  
+  Que-17   |    a     |     D      | Wrong  
+  Que-18   |    b     |     B      | Right  
+  Que-19   |    c     |     B      | Wrong  
+  Que-20   |    d     |     D      | Right  
+  Que-21   |    e     |     D      | Wrong  
+  Que-22   |    d     |     C      | Wrong  
+  Que-23   |          |     C      | Wrong  
+  Que-24   |          |     C      | Wrong  
+  Que-25   |          |     B      | Wrong  
+  Que-26   |          |     C      | Wrong  
+  Que-27   |          |     A      | Wrong  
+  Que-28   |          |     C      | Wrong  
+  Que-29   |          |     B      | Wrong  
+  Que-30   |          |     B      | Wrong  
+  Que-31   |          |     B      | Wrong  
+  Que-32   |          |     D      | Wrong  
+  Que-33   |          |     C      | Wrong  
+  Que-34   |          |     D      | Wrong  
+  Que-35   |          |     A      | Wrong  
+  Que-36   |          |     A      | Wrong  
+  Que-37   |          |     D      | Wrong  
+  Que-38   |          |     A      | Wrong  
+  Que-39   |          |     C      | Wrong  
+  Que-40   |          |     C      | Wrong  
+  Que-41   |          |     B      | Wrong  
+  Que-42   |          |     C      | Wrong  
+  Que-43   |          |     D      | Wrong  
+  Que-44   |          |     C      | Wrong  
+  Que-45   |          |     A      | Wrong  
+  Que-46   |          |     C      | Wrong  
+  Que-47   |          |     C      | Wrong  
+  Que-48   |          |     D      | Wrong  
+  Que-49   |          |     C      | Wrong  
+  Que-50   |          |     C      | Wrong  
+
+Total matks = 50
+Obtained marks = 2
+blank questions : 44

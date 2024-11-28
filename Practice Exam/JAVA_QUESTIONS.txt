@@ -1,0 +1,201 @@
+Which Components is not part of java?
+(A)JVM  (B)JDK  (C)JDK  (D)JDE
+
+Number of primitive data types in java are?   
+(A)3  (B)5  (C)8  (D)4
+
+What is size of float and double in java?
+(A)32 and 64  (B)64 and 64  (C)32 and 32  (D)64 and 32
+
+Automatic type conversion is possible in which of the possible cases?
+(A)Byte to int  (B)int to long  (C)Long to short  (D)Short to int 
+
+Which of the following is used to find and fix bugs in the program?
+(A)JVM  (B)JDK  (C)JDK  (D)JDB
+
+Find the output of the following code?
+  int Integer = 24;
+  char String  = ‘I’;
+  System.out.print(Integer);
+  System.out.print(String);
+(A)24  (B)I  (C)24  (D)No output
+
+Select valid statement?
+(A)ch[] char = new char  
+(B)char[]ch = new char[5]
+(C)char[]ch = new char() 
+(D)char[]ch = new char[]
+
+Select valid statement to declare and initialize an array?
+(A)int[]A = {}  
+(B)int[]A = {1,2,3}
+(C)int[]A = (1,2,3)
+(D)int[]A = ()
+
+identify the correct statement for static methods?
+  i.they must access only static data.
+ ii.they can only call other static methods.
+iii.they cannot refer to this or super.
+(A)i  (B)ii  (C)iii  (D)i,ii and iii
+
+which method does not retun any value?
+(A)int  (B)double  (C)void  (D)none
+
+Identify the modifier which cannot be used for constructor?
+(A)public  (B)private  (C)protected  (D)static
+
+In a typecasting upcasting is by default?
+(A)implicit  (B)explicit  (C)dafault  (D)static
+
+what is output of following code?
+   class Student{
+    public static void main(String []ar){
+      Student s = new Student();
+      System.out.println(s instance of Student);
+  }    
+}
+(A)true  (B)false  (C)error  (D)no output
+
+what is output of following code?
+  interface Collage{
+   void exam();
+   public static void main(String []args){
+    Collage c = new Collage();
+    c.exam();
+  }
+}
+(A)true  (B)false  (C)error  (D)no output
+
+where exceptions arises in code sequence?
+(A)Run Time  (B)Can Occur Any Time  (C)Compilation Time  (D)None of the mentioned 
+
+exception generated in try block is caught in____block?
+(A)throw   (B)throws  (C)Catch  (D)finally
+
+which keyword is used to explicitly throw an exception?
+(A)finally   (B)throws  (C)thrown  (D)throw  
+
+which exception is thrown when divide by zero statemet executes?
+(A)NumberFromatException
+(B)ArithmeticException
+(C)NullPointerException
+(D)None of these 
+
+which keyword is used to specify the exception thrown by method?
+(A)throw   (B)throws  (C)Catch  (D)finally
+
+which of the following block execute compulsorily whether exception is caught or not?
+(A)throw   (B)throws  (C)Catch  (D)finally
+
+which exception is thrown when an array element is accessed beyond the array size?
+(A)NumberFromatException
+(B)ArrayElementException
+(C)NullPointerException
+(D)ArrayIndexOutOfBoundsException 
+
+In java a thread can be created by__?
+(A)Extending the thread class
+(B)Implementing Runnable interface
+(C)Both of above
+(D)None of these
+
+What is the name of the method used to start a thread execution?
+(A)run()  (B)init()  (C)start()  (D)resume()
+
+when a class extend the Thread class, it should have override____method of Thread class to start that thread?
+(A)start()   (B)int()  (C)run()  (D)go()
+
+which keyword when applied on a method indicates that only one thread should execute the method at a time? 
+(A)native   (B)synchronized  (C)static  (D)final
+
+Which of the following will directly stop the execution of a Thread?
+(A)notify()  (B)notifyall()  (C)wait()  (D)exits synchronized code
+
+Which function of pre defined class Thread is used to check weather current thread being checked is still running?
+(A)isAlive()  (B)Alive()  (C)isRunning()  (D)Join()
+
+Which interface provides key-value pair?
+(A)List  (B)Set  (C)Map  (D)Collection
+
+Which Interface does not allow duplicates?
+(A)List  (B)Set  (C)Map  (D)SortedMap
+
+Which data structure ArrayList internally uses?
+(A)LinkedList  (B)Array  (C)Doubly LinkedList  (D)None
+
+HashSet internally uses?
+(A)Set  (B)HashMap  (C)List  (D)Collection
+
+What is the correct way to create an ArrayList of Strings?
+(A)ArrayList<String> list = new ArrayList[];
+(B)ArrayList list = new List<String>();
+(C)ArrayList list = new ArrayList<String>();
+(D)ArrayList<String> list = new ArrayList<>();
+
+Which method is used to add an element to the end of an ArrayList?
+(A)addLast()  (B)addEnd()  (C)add()  (D)append()
+
+Which method is used to check if a specific element is present in a Set?
+(A)containsElement()  (B)containsKey()  (C)containsValue()  (D)contains() 
+
+Which method is used to retrieve the first element from a Queue without removing it?
+(A)peek()  (B)getFirst()  (C)element()  (D)front() 
+
+What is the output of the following code?
+   ArrayList<String> list = new ArrayList<>();
+   list.add("Java");
+   list.add("Python");
+   System.out.println(list.contains("Python"));
+(A)true  (B)false  (C)Python  (D)Compilation error
+
+What is the output of the following code?
+   HashMap<String, Integer> map = new HashMap<>();
+   map.put("Java", 10);
+   map.put("Python", 20);
+   System.out.println(map.keySet());
+(A)["Java", "Python"]  (B)[10, 20]  (C)"Java", "Python"  (D)[Java, Python]
+
+Which method is used to check if a LinkedList is empty?
+(A)isEmpty()  (B)checkEmpty()  (C)hasElements()  (D)hasData()
+
+Java I/O is used to process the?
+(A)input  (B)output  (C)Both A and B  (D)None of the above
+
+___________ returns true if called on a file and returns false when called on a directory?
+(A)IsFile()  (B)Isfile()  (C)isFile()  (D)isfile()
+
+Which class is used to read from file character by character Java? 
+(A)InputStreamReader  (B)FileReader  (C)BufferedReader  (D)Scanner 
+
+Which class is used to read from file line by line Java? 
+(A)InputStreamReader  (B)FileReader  (C)BufferedWriter  (D)Scanner
+
+Which class is used to read from file byte by byte in Java? 
+(A)InputStreamReader  (B)FileReader  (C)BufferedWriter  (D)FileInputStream
+
+which Exception throws RandomAccessFile in java?
+(A)InputException
+(B)IOException
+(C)EndOfFileException
+(D)FileException 
+
+___________ returns true if called on a directory and returns false when called on a file?
+(A)isDirectory()  (B)IsDirectory() (C)isFile()  (D)isfile()
+
+The ……………………… method of the BufferedReader class is used for reading lines of text from the console, the file or other input streams?
+(A)read( )  (B)read(byte[](B)  (C)readLine( )  (D)readByte( )
+
+Which of the following method(s) not included in InputStream class?
+(A)available( )  (B)reset( )  (C)flush( )  (D)close( )
+
+What value does readLine( ) return when it has reached the end of a file?
+(A)1  (B)0  (C)-1  (D)null
+
+What value does read( ) return when it has reached the end of a file?
+(A)1  (B)0  (C)-1  (D)null
+
+RandomAccessFile cab be use to ______________ ?
+(A)read from random access file
+(B)write from random access file
+(C)read and write from random access file
+(D)restrict read and write to a random access file

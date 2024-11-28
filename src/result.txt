@@ -1,0 +1,8 @@
+=> Result:-
+
+      Userid    |      name      |    marks
+----------------+----------------+-------------
+   A@235        |      Archan    |      4   
+
+avg marks of students = 4.0
+3

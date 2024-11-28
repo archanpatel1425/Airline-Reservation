@@ -1,0 +1,291 @@
+When the transaction finishes the final statement, in which state the transaction enters
+into?
+(A)Active state  (B)Committed state (C)Partially committed state  (D)Abort state
+
+A transaction may not always complete its execution successfully. Such a transaction is
+termed as _______
+(A)Aborted  (B)Terminated (C)Closed  (D)All of the mentioned
+
+When the transaction finishes the final statement, in which state does the transaction enter into?
+(A) Active state
+(B) Committed state
+(C) Partially committed state
+(D) Abort state
+
+ A transaction may not always complete its execution successfully. Such a transaction is termed as _______
+(A) Aborted
+(B) Terminated
+(C) Closed
+(D) All of the mentioned
+
+ Which of the following is not a state in a transaction?
+(A) Active
+(B) Closed
+(C) Aborted
+(D) Partially committed
+
+ Which of the following is not a state in a transaction?
+(A) Active
+(B) Closed
+(C) Aborted
+(D) Partially committed
+
+With regards to transaction processing, any DBMS should be capable of:
+(A) Ensuring that transactions are free from interference from other users
+(B) Parts of a transaction are not lost due to a failure
+(C) Transactions do not make the database inconsistent
+(D) All of the above.
+
+Which of the following is an atomic sequence of database actions?
+(A) Transaction
+(B) Concurrency
+(C) Relations
+(D) All of the mentioned
+
+If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called _____
+(A) Consistent state
+(B) Parallel state
+(C) Atomic state
+(D) Inconsistent state
+
+A transaction completes its execution is said to be ______
+(A) Saved
+(B) Loaded
+(C) Rolled
+(D) Committed
+
+ Consider the given two scenarios: (1) money is transferred from account-A to account-B and (2) money is debited from account-A. Which of the following forms a transaction?
+(A) Only 1
+(B) Only 2
+(C) Both 1 and 2 individually
+(D) None of the mentioned
+
+______ means that the data used during the execution of a transaction cannot be used by a second transaction until the first one is completed
+(A) Consistency
+(B) Durability
+(C) Isolation
+(D) Atomicity
+What is ACID properties of Transaction?
+(A) Atomicity, Consistency, Isolation, Database
+(B) Atomicity, Consistency, Isolation, Durability
+(C) Atomicity, Concurrency, Isolation, Durability
+(D) Automatically, Concurrency, Isolation, Durability
+
+Which of the given properties of a transaction ensures that the database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements?
+(A) Atomicity
+(B) Durability
+(C) Isolation
+(D) Consistency
+
+The property of a transaction that persists all the crashes is called ______
+(A) Atomicity
+(B) Durability
+(C) Isolation
+(D) Consistency
+
+Execution of a transaction in isolation preserves the _________ of a database
+(A) Atomicity
+(B) Durability
+(C) Consistency
+(D) All of the mentioned
+
+ Which of the following systems is responsible for ensuring durability?
+(A) Concurrency control system
+(B) Atomic system
+(C) Compiler system
+(D) Recovery system
+
+A transaction enters the failed state after the system determines that the transaction can no longer proceed with its normal execution. Such a transaction must be rolled back. Then it enters the ___ state.
+(A) Active
+(B) Partially committed
+(C) Aborted
+(D) Inactive
+
+Which of the following systems is responsible for ensuring isolation?
+(A) Concurrency control system
+(B) Atomic system
+(C) Compiler system
+(D) Recovery systeM
+
+A schedule is serialized if it is equivalent to a ______ schedule
+(A) Non-serial
+(B) Serial
+(C) View
+(D) None of the mentioned
+
+If a schedule S can be transformed into a schedule S’ by a series of swaps of non-conflicting instructions, then S and S’ are:
+(A) Non-conflict equivalent
+(B) Equal
+(C) Conflict equivalent
+(D) Isolation equivalent
+ I and J are _________ if they are operations by different transactions on the same data item, and at least one of them is a write operation
+(A) Conflicting
+(B) Overwriting
+(C) Isolated
+(D) Durable
+
+When one transaction nullifies the updates of another transaction, it is called:
+(A) Inconsistent retrievals
+(B) Lost Update
+(C) Dirty Read
+(D) None of the mentioned
+
+Reading the data written by an uncommitted transaction is called _______
+(A) Lost Update
+(B) Dirty Read
+(C) Unrepeatable Read
+(D) None of the mentioned
+
+To synchronize the concurrent accessing of database items, we use :
+(A) Transactions
+(B) States
+(C) Locks
+(D) Tables
+
+Consider the given scenario and label the problem in it: (1) T1 reads the value of X (= 10 say). (2) T2 reads the value of X (= 10). (3) T1 updates the value of X (from 10 to 15 say) in the buffer. (4) T2 again reads the value of X (but = 15)
+(A) Unrepeatable Read
+(B) Lost Update
+(C) Dirty Read
+(D) None of the mentioned
+
+The most widely used structure for recording database modification is called as _______
+(A) List
+(B) Queue
+(C) Stack
+(D) Log
+
+The value of the data item prior to the write is called as _________
+(A) Transaction identifier
+(B) Data-item identifier
+(C) Old value
+(D) New value
+
+If the database modifications occur while the transaction is still active, the transaction is said to use the __________ modification technique
+(A) Deferred
+(B) Immediate
+(C) Log
+
+A ___________of the transactions can be obtained by finding a linear order consistent with the partial order of the precedence graph
+(A) Serializability order
+(B) Direction graph
+(C) Precedence graph
+(D) Scheduling scheme
+Suppose a database system crashes again while recovering from a previous crash. Assume checkpointing is not done by the database either during the transactions or during recovery. Which of the following statements is/are correct
+(A) The same undo and redo list will be used while recovering again
+(B) The system cannot recover any further
+(C) The database will become inconsistent
+(D) System will crash
+
+We say that a transaction has been ________ when its commit log record has been output to stable storage
+(A) Locked
+(B) Completed
+(C) Committed
+(D) Release
+
+Database locking concept is used to solve the problem of:
+(A) Lost Update
+(B) Uncommitted Dependency
+(C) Inconsistent Data
+(D) All of the above
+
+ I and J are _________ if they are operations by different transactions on the same data item, and at least one of them is a write operation
+(A) Overwriting
+(B) Conflicting
+(C) Durable
+(D) None of the mentioned
+
+ If a transaction has obtained a __________ lock, it can read but cannot write on the item
+(A) Shared mode
+(B) Exclusive mode
+(C) Read-only mode
+(D) Write-only mode
+
+Which of the following protocols requires transactions to hold all locks until after the transaction has committed?
+(A) 2 phase locking protocol
+(B) Rigorous 2 phase locking protocol
+(C) Strict 2 phase locking protocol
+(D) Locking protocol
+
+ In which type of two-phase locking protocol is there no shrinking phase?
+(A) 2 phase locking protocol
+(B) Strict 2 phase locking protocol
+(C) Rigorous 2 phase locking protocol
+(D) Locking protocol
+
+If a transaction has obtained a ________ lock, it can both read and write on the item
+(A) Shared mode
+(B) Exclusive mode
+(C) Read-only mode
+(D) Write-only mode
+
+The two-phase locking protocol consists of which of the following phases?
+(A) Growing phase
+(B) Shrinking phase
+(C) Both Growing and Shrinking Phase
+(D) None of the mentioned
+
+If a transaction may release locks but may not obtain any locks, it is said to be in ______ phase
+(A) Growing phase
+(B) Shrinking phase
+(C) Deadlock phase
+(D) Starved phase
+
+When using Lock-based protocol, each transaction must obtain a ___ on the data before it can read or write it.
+(A) Grant
+(B) Recovery
+(C) Lock
+(D) Request
+
+If a transaction can be granted a lock on an item immediately in spite of the presence of another mode, then the two modes are said to be ________
+(A) Concurrent
+(B) Equivalent
+(C) Compatible
+(D) Executable
+
+ If a transaction has obtained a lock, it can both read and write on the item immediately in spite of the presence of another mode, then the two modes are said to be ________
+(A) Concurrent
+(B) Equivalent
+(C) Compatible
+(D) Executable
+
+Which of the following occurs when one transaction reads a changed record that has not been committed to the database?
+(A) Dirty read
+(B) Consistent read
+(C) Lost Update
+(D) Repeatable read
+
+If a schedule S can be transformed into a schedule S’ by a series of swaps of non-conflicting instructions, then S and S’ are:
+(A) Non-conflict equivalent
+(B) Atomic equivalent
+(C) Conflict equivalent
+(D) Isolation equivalent
+
+Which of the following statements contains an error?
+(A) Select * from emp where empid = 10003;
+(B) Select empid from emp where empid = 10006;
+(C) Select empid from emp;
+(D) Select empid where empid = 1009 and lastname = ‘GELLER’;
+
+Which logical operator in PostgreSQL negates a condition and returns true if the condition is false?
+(A) AND
+(B) OR
+(C) NOT
+(D) JOIN
+
+What does the pattern 'j%' in the expression FirstName LIKE 'j%' represent?
+(A) Records whose FirstName starts with 'j'
+(B) Records whose FirstName contains 'j' or 'J' at any position
+(C) Records whose FirstName ends with 'j' or 'J'
+(D) Records whose FirstName is not 'j' or 'J'
+
+ If you don’t specify ASC or DESC after a SQL ORDER BY clause, the following is used by default ______________
+(A) ASC
+(B) DESC
+(C) There is no default value
+(D) None of the mentioned
+
+ Group by - Having clause is placed before _____ clause and after ______ clause in SQL statement. (Select the option with the correct sequence to fill in the blanks.)
+(A) Order By, Where
+(B) Where, Order By
+(C) From, Where
+(D) Where, From
